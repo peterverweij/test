@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>R  command and plot using health data worldbank</title>
+      <link>/post/r-command-and-plot-using-health-data-worldbank/</link>
+      <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-command-and-plot-using-health-data-worldbank/</guid>
+      <description>h&amp;lt;-read.csv(&amp;quot;/home/peter/test/health2.csv&amp;quot;) str(h)  ## &#39;data.frame&#39;:	165 obs. of 8 variables: ## $ year : int 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 ... ## $ country : Factor w/ 11 levels &amp;quot;Angola&amp;quot;,&amp;quot;Botswana&amp;quot;,..: 1 1 1 1 1 1 1 1 1 1 ... ## $ life.expec : num 46.6 47.4 48.1 48.8 49.4 ... ## $ gdp.cap : num 606 574 776 850 1136 ... ## $ code : Factor w/ 11 levels &amp;quot;AGO&amp;quot;,&amp;quot;BWA&amp;quot;,&amp;quot;CMR&amp;quot;,.</description>
+    </item>
+    
+    <item>
       <title>bbc 2</title>
       <link>/post/bbc-2/</link>
       <pubDate>Mon, 11 Feb 2019 00:00:00 +0000</pubDate>

@@ -116,7 +116,7 @@
         <h1 class="post-full-title">Wonderful</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(/defimg/6.jpg)">
+    <figure class="post-full-image" style="background-image: url(/defimg/1.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -1252,13 +1252,15 @@ $ vi themes/zafta/layouts/_default/single.html
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="/post/creating-a-new-theme/">Creating a New Theme</a></li>            
+          <li><a href="/post/"></a></li>            
         
-          <li><a href="/post/code-r-6/">code r 6</a></li>            
+          <li><a href="/post/hello-r-markdown/">Hello R Markdown</a></li>            
         
-          <li><a href="/post/colenak/">Colenak</a></li>            
+                      
         
-          <li><a href="/post/bbc-2/">bbc 2</a></li>            
+          <li><a href="/post/plot3/">plot3</a></li>            
+        
+          <li><a href="/post/bbc-3-plot/">bbc 3 plot</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -1271,7 +1273,7 @@ $ vi themes/zafta/layouts/_default/single.html
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="/post/awesomeness/">
-      <div class="post-card-image" style="background-image: url(/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(/defimg/5.jpg)"></div>
     </a>    
     
 
@@ -1299,22 +1301,22 @@ We&rsquo;ll start with creating a new site with a very basic template. ...  </p>
       
       <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/post/bbc-2/">
-      <div class="post-card-image" style="background-image: url(/defimg/6.jpg)"></div>
+    <a class="post-card-image-link" href="/post/r-command-and-plot-using-health-data-worldbank/">
+      <div class="post-card-image" style="background-image: url(/defimg/1.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/post/bbc-2/">
+      <a class="post-card-content-link" href="/post/r-command-and-plot-using-health-data-worldbank/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              #R Markdown  </span>
+              #plot  </span>
               
-              <h2 class="post-card-title">bbc 2</h2>
+              <h2 class="post-card-title">R  command and plot using health data worldbank</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>library(dplyr)  ## ## Attaching package: 'dplyr'  ## The following objects are masked from 'package:stats': ## ## filter, lag  ## The following objects are masked from 'package:base': ## ## intersect, setdiff, setequal, union  library(tidyr) library(gapminder) library(ggplot2) library(ggalt) library(forcats) library(R.utils)  ## Loading required package: R.oo  ## Loading required package: R.methodsS3  ## R.methodsS3 v1.7.1 (2016-02-15) successfully loaded. See ?R.methodsS3 for help.  ## R.oo v1.22.0 (2018-04-21) successfully loaded. ...  </p>
+                <p>h&lt;-read.csv(&quot;/home/peter/test/health2.csv&quot;) str(h)  ## 'data.frame':	165 obs. of 8 variables: ## $ year : int 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 ... ## $ country : Factor w/ 11 levels &quot;Angola&quot;,&quot;Botswana&quot;,..: 1 1 1 1 1 1 1 1 1 1 ... ## $ life.expec : num 46.6 47.4 48.1 48.8 49.4 ... ## $ gdp.cap : num 606 574 776 850 1136 ... ## $ code : Factor w/ 11 levels &quot;AGO&quot;,&quot;BWA&quot;,&quot;CMR&quot;,. ...  </p>
               
           </section>
       </a>
