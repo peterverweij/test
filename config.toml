@@ -9,10 +9,10 @@ canonifyurls    = true
 
 [params]
   title       = "D3MEDIA"
-  subtitle    = "data journalism"
+  subtitle    = "R in Data Journalism"
   copyright   = "© 2018"
 
-  cover       = "img/blog-cover.jpg"
+  cover       = "img/blog-cover2.jpg"
   description = "blog about examples,assignments and training"
   metaDescription = ""
   googleAnalytics = "UA-48018100-1"
@@ -25,18 +25,14 @@ canonifyurls    = true
   linkedinName = "peter-verweij"
   mediumName = "verweijpjc"
 
-  logo = "hugo-logo.png"
-  orgName = "EM"
+  logo = "img/hugo-logo2.png"
+  orgName = "D3-Media"
   orgWebsite = "https://www.d3-media.nl"
   orgDescription = "Here is a description placeholder for your org"
 
   showSupport = true
 
-  author = "EM"
-  authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Bandung, ID"
-  authorWebsite = "https://eueung.github.io"
-  authorDescription = "Your description here"
+  authorAvatar = "img/hugo-logo2.png"
 
   pageNotFoundTitle = "404 - Page not found"
 
@@ -51,19 +47,19 @@ canonifyurls    = true
   url = "/"
   weight = 200
 
-[[menu.main]]
-  name = "Go"
-  url = "/tags/golang/"
-  weight = 100
+#[[menu.main]]
+  #name = "Go"
+  #url = "/tags/golang/"
+  #weight = 100
 
-[[menu.main]]
-  name = "Categories"
-  url = "/categories/"
-  weight = 99
+#[[menu.main]]
+  #name = "Categories"
+  #url = "/categories/"
+  #weight = 99
 
 [[menu.main]]
   name = "External"
-  url = "https://google.com/"
+  url = "https://sites.google.com/a/d3-media.nl/d3/"
   weight = 95
 
 
